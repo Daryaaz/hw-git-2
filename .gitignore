@@ -1,0 +1,14 @@
+help.md
+
+#dependencies
+node_modules
+
+*.logs
+
+#profiling files
+chrome-profiler-events*.json
+
+#compiled output
+/dist
+/tmp
+/out-tsc
