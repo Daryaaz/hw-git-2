@@ -17,8 +17,7 @@ function increaseBalance(x, y) {
   console.log(divideBalanceByAccounts(3000, 4000, 2));
   
   
-  
   function getRestAfterDivision(x, y) {
-    return x % y;
+    return x %= y;
   }
   console.log(getRestAfterDivision(7000, 3))
