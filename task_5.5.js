@@ -1,7 +1,8 @@
 const value1 = 5;
 let value2 = Math.floor(Math.random() * 101);
+let sum = value1 + value2
 
-console.log(value1+value2);
+console.log(sum);
 
 /*
 Приоритет операторов определяет порядок, в котором операторы выполняются. 
