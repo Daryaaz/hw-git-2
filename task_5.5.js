@@ -1,6 +1,6 @@
 const value1 = 5;
 let value2 = Math.floor(Math.random() * 101);
-let sum = value1 + value2
+let sum = value1 + value2 / 5 + 17
 
 console.log(sum);
 
