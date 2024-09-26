@@ -4,11 +4,13 @@ let receiver = {
     receivedCode: "A001DFX0",
 }
 const parcelMachine = [null, null, null, "A001DFX0", null];
+let indexCell = parcelMachine.indexOf(receiver.receivedCode)+1
+
 
 for(let i=0; i<parcelMachine.length; i++){
     if(parcelMachine[i] === receiver.receivedCode) {
         receiver.balance = receiver.balance - 100
-        console.log(`You have received parcel from cell Nr.4. 
+        console.log(`You have received parcel from cell ${indexCell} 
         Your balance is ${receiver.balance}`);
     } else {
         console.log("Invalid code");
